@@ -1,7 +1,7 @@
 sql
--- ============================================
+
 -- STORED PROCEDURES PROGRAM
--- ============================================
+
 
 -- Create Accounts Table
 CREATE TABLE Accounts (
@@ -30,17 +30,16 @@ INSERT INTO Employees VALUES (3,'Aman ','IT',60000);
 
 COMMIT;
 
-----------------------------------------------------
 -- Show Initial Data
-----------------------------------------------------
+
 
 SELECT * FROM Accounts;
 SELECT * FROM Employees;
 
-----------------------------------------------------
+-
 -- Scenario 1
 -- Process Monthly Interest (1%)
-----------------------------------------------------
+
 
 CREATE OR REPLACE PROCEDURE ProcessMonthlyInterest
 IS
@@ -63,10 +62,10 @@ END;
 
 SELECT * FROM Accounts;
 
-----------------------------------------------------
+
 -- Scenario 2
 -- Update Employee Bonus
-----------------------------------------------------
+
 
 CREATE OR REPLACE PROCEDURE UpdateEmployeeBonus
 (
@@ -93,10 +92,10 @@ END;
 
 SELECT * FROM Employees;
 
-----------------------------------------------------
+
 -- Scenario 3
 -- Transfer Funds
-----------------------------------------------------
+
 
 CREATE OR REPLACE PROCEDURE TransferFunds
 (
