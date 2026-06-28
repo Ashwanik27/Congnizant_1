@@ -41,10 +41,10 @@ COMMIT;
 SELECT * FROM Customers;
 SELECT * FROM Loans;
 
--- =====================================
+
 -- Scenario 1
 -- Apply 1% Discount to Customers Above 60
--- =====================================
+
 
 BEGIN
     FOR rec IN (
@@ -69,10 +69,9 @@ END;
 
 SELECT * FROM Loans;
 
--- =====================================
+
 -- Scenario 2
 -- Make VIP Customers
--- =====================================
 
 BEGIN
     FOR rec IN (SELECT CustomerID,Balance FROM Customers)
@@ -92,10 +91,9 @@ END;
 
 SELECT * FROM Customers;
 
--- =====================================
 -- Scenario 3
 -- Loan Reminder
--- =====================================
+
 
 BEGIN
     FOR rec IN
@@ -119,9 +117,9 @@ BEGIN
 END;
 /
 
--- =====================================
+
 -- Final Tables
--- =====================================
+
 
 SELECT * FROM Customers;
 SELECT * FROM Loans;
