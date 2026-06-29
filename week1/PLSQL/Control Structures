@@ -72,7 +72,7 @@ SELECT * FROM Loans;
 
 -- Scenario 2
 -- Make VIP Customers
-
+-- =====================================
 
 BEGIN
     FOR rec IN (SELECT CustomerID,Balance FROM Customers)
@@ -92,7 +92,7 @@ END;
 
 SELECT * FROM Customers;
 
-
+-- =====================================
 -- Scenario 3
 -- Loan Reminder
 
