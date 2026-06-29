@@ -10,3 +10,4 @@
 <img width="986" height="388" alt="Screenshot 2026-06-28 220207" src="https://github.com/user-attachments/assets/7eaa82d6-2b5e-499f-bd26-41e3d0e4536d" />
 # 2 b 
 <img width="967" height="390" alt="Screenshot 2026-06-28 220226" src="https://github.com/user-attachments/assets/fac699ee-c22a-4e05-a055-2d23765fb937" />
+Output
