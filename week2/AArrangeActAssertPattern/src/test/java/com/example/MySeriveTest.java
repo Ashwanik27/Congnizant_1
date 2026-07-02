@@ -6,14 +6,14 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class ArrangeTest {
+public class MySeriveTest {
 
-    private Arrange arrange;
+    private MyService arrange;
 
     @Before
     public void setUp() {
         System.out.println("Setup Method");
-        arrange = new Arrange();
+        arrange = new MyService();
     }
 
     @After
