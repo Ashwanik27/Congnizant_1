@@ -1,0 +1,708 @@
+2026-06-29T16:17:02.811Z [INFO] ----------------------invoke appmod-list-jdks----------------------
+2026-06-29T16:17:02.813Z [INFO] [Tool.invoke]({name: appmod-list-jdks, modelId: auto, input: {
+  "sessionId": "",
+  "projectPath": "c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1"
+}}).
+2026-06-29T16:17:02.814Z [INFO] [Tool.invoke] do invoke.
+2026-06-29T16:17:02.984Z [INFO] [Tool.invoke]({result: {
+  "message": "We found following jdks in your system:\n\n1. Java 17.0.16\n   📁 Path: C:\\Users\\Lenovo\\.jdk\\jdk-17.0.16\\bin\n   🏷️ Source: others\n\n2. Java 21.0.8\n   📁 Path: C:\\Users\\Lenovo\\.jdk\\jdk-21.0.8(1)\\bin\n   🏷️ Source: others\n\n3. Java 23.0.1\n   📁 Path: C:\\Program Files\\Java\\jdk-23\\bin\n   🏷️ Source: others\n\n4. Java 24.0.1\n   📁 Path: C:\\Users\\Lenovo\\.jdks\\openjdk-24.0.1\\bin\n   🏷️ Source: others\n\nTotal: 4 JDK installation(s) found"
+}}).
+2026-06-29T16:17:02.985Z [INFO] ----------------------invoked appmod-list-jdks----------------------
+2026-06-29T16:18:33.850Z [INFO] ----------------------invoke appmod-list-mavens----------------------
+2026-06-29T16:18:33.851Z [INFO] [Tool.invoke]({name: appmod-list-mavens, modelId: auto, input: {
+  "sessionId": "",
+  "includeVersion": true,
+  "projectPath": "c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1"
+}}).
+2026-06-29T16:18:33.852Z [INFO] [Tool.invoke] do invoke.
+2026-06-29T16:18:35.141Z [INFO] [Tool.invoke]({result: {
+  "message": "We found following maven installations in your system:\n\n1. Maven 3.9.12\n   📁 Path: C:\\Users\\Lenovo\\.maven\\maven-3.9.12\\bin\n   🏷️ Source: install\n\nTotal: 1 Maven installation(s) found"
+}}).
+2026-06-29T16:18:35.142Z [INFO] ----------------------invoked appmod-list-mavens----------------------
+2026-06-29T16:18:42.588Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-06-29T16:18:42.590Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "projectPath": "c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\week1\\week2\\JunitExample",
+  "event": "precheckCompleted",
+  "phase": "precheck",
+  "status": "succeeded",
+  "details": {
+    "components": [
+      {
+        "name": "jdk",
+        "baseVersion": "11",
+        "targetVersion": "21"
+      }
+    ]
+  }
+}}).
+2026-06-29T16:18:42.591Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-06-29T16:18:42.592Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-06-29T16:18:42.593Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-06-29T16:18:42.730Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-06-29T16:18:42.731Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "projectPath": "c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\week1\\week2\\JunitExample",
+  "event": "precheckCompleted",
+  "phase": "precheck",
+  "status": "succeeded",
+  "details": {
+    "components": [
+      {
+        "name": "jdk",
+        "baseVersion": "11",
+        "targetVersion": "21"
+      }
+    ]
+  }
+}}).
+2026-06-29T16:18:42.732Z [INFO] [Tool.invoke] do invoke.
+2026-06-29T16:18:42.737Z [INFO] Project c:\Users\Lenovo\OneDrive\Desktop\cognizant_1 is not a maven project, try to get java version from gradle
+2026-06-29T16:18:42.754Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'precheckCompleted' reported!\nSession ID: 20260629161702,\nSession Dir: c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\.github\\modernize\\java-upgrade\\20260629161702"
+}}).
+2026-06-29T16:18:42.755Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-06-29T16:18:42.859Z [INFO] Try to get java version from gradle config files: 
+2026-06-29T16:18:42.861Z [INFO] Try to get java version from gradle properties: undefined
+2026-06-29T16:18:42.862Z [INFO] Project java version: 8
+2026-06-29T16:18:42.911Z [WARN] [ReportEventTool] Full project info unavailable, attempting lightweight fallback: UserError: Failed to detect build tool for the project at c:\Users\Lenovo\OneDrive\Desktop\cognizant_1. There are child Maven/Gradle projects detected: "week1\week2\JunitExample". Would you like to use one of them instead?
+2026-06-29T16:18:42.915Z [INFO] Project c:\Users\Lenovo\OneDrive\Desktop\cognizant_1 is not a maven project, try to get java version from gradle
+2026-06-29T16:18:42.941Z [INFO] Try to get java version from gradle config files: 
+2026-06-29T16:18:42.943Z [INFO] Try to get java version from gradle properties: undefined
+2026-06-29T16:18:46.758Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-06-29T16:18:46.760Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "planGenerationStarted",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\week1\\week2\\JunitExample",
+  "sessionId": "20260629161702",
+  "status": "succeeded"
+}}).
+2026-06-29T16:18:46.761Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-06-29T16:18:46.762Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-06-29T16:18:46.763Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-06-29T16:18:46.884Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-06-29T16:18:46.885Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "event": "planGenerationStarted",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\week1\\week2\\JunitExample",
+  "sessionId": "20260629161702",
+  "status": "succeeded"
+}}).
+2026-06-29T16:18:46.886Z [INFO] [Tool.invoke] do invoke.
+2026-06-29T16:18:46.888Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planGenerationStarted' reported!\nSession ID: 20260629161702,\nSession Dir: c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\.github\\modernize\\java-upgrade\\20260629161702"
+}}).
+2026-06-29T16:18:46.889Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-06-29T16:19:12.181Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-06-29T16:19:12.182Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "planReviewed",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\week1\\week2\\JunitExample",
+  "sessionId": "20260629161702",
+  "status": "succeeded"
+}}).
+2026-06-29T16:19:12.183Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-06-29T16:19:12.184Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-06-29T16:19:12.184Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-06-29T16:19:12.297Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-06-29T16:19:12.299Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "event": "planReviewed",
+  "phase": "plan",
+  "projectPath": "c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\week1\\week2\\JunitExample",
+  "sessionId": "20260629161702",
+  "status": "succeeded"
+}}).
+2026-06-29T16:19:12.300Z [INFO] [Tool.invoke] do invoke.
+2026-06-29T16:19:12.302Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planReviewed' reported!\nSession ID: 20260629161702,\nSession Dir: c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\.github\\modernize\\java-upgrade\\20260629161702"
+}}).
+2026-06-29T16:19:12.303Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-06-29T16:19:15.681Z [INFO] ---------------------prepare appmod-confirm-upgrade-plan----------------------
+2026-06-29T16:19:15.682Z [INFO] [Tool.prepareInvocation]({name: appmod-confirm-upgrade-plan, input: {
+  "sessionId": "20260629161702"
+}}).
+2026-06-29T16:19:15.683Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-06-29T16:19:15.685Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Review [upgrade plan](file:///c:/Users/Lenovo/OneDrive/Desktop/cognizant_1/.github/modernize/java-upgrade/20260629161702/plan.md)",
+  "confirmationMessages": {
+    "title": "Plan generated",
+    "message": "Please review the generated plan and make any necessary adjustments before proceeding. You can modify the generated [`plan.md`](file:///c:/Users/Lenovo/OneDrive/Desktop/cognizant_1/.github/modernize/java-upgrade/20260629161702/plan.md) directly."
+  }
+}}).
+2026-06-29T16:19:15.685Z [INFO] ----------------------prepared appmod-confirm-upgrade-plan----------------------
+2026-06-29T16:22:09.990Z [INFO] ----------------------invoke appmod-confirm-upgrade-plan----------------------
+2026-06-29T16:22:09.991Z [INFO] [Tool.invoke]({name: appmod-confirm-upgrade-plan, modelId: auto, input: {
+  "sessionId": "20260629161702"
+}}).
+2026-06-29T16:22:09.992Z [INFO] [Tool.invoke] do invoke.
+2026-06-29T16:22:09.993Z [INFO] Upgrade plan confirmed successfully.
+2026-06-29T16:22:09.993Z [INFO] [Tool.invoke]({result: {
+  "message": "Generated plan is reviewed and confirmed by the user! the upgrade process will start now."
+}}).
+2026-06-29T16:22:09.994Z [INFO] ----------------------invoked appmod-confirm-upgrade-plan----------------------
+2026-06-29T16:22:16.423Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-06-29T16:22:16.424Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "planExecutionStarted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\week1\\week2\\JunitExample",
+  "sessionId": "20260629161702",
+  "status": "succeeded"
+}}).
+2026-06-29T16:22:16.425Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-06-29T16:22:16.427Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-06-29T16:22:16.428Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-06-29T16:22:16.608Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-06-29T16:22:16.609Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "event": "planExecutionStarted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\week1\\week2\\JunitExample",
+  "sessionId": "20260629161702",
+  "status": "succeeded"
+}}).
+2026-06-29T16:22:16.610Z [INFO] [Tool.invoke] do invoke.
+2026-06-29T16:22:16.821Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planExecutionStarted' reported!\nSession ID: 20260629161702,\nSession Dir: c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\.github\\modernize\\java-upgrade\\20260629161702"
+}}).
+2026-06-29T16:22:16.821Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-06-29T16:22:29.334Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-06-29T16:22:29.335Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "details": {
+    "buildToolPath": "C:\\Users\\Lenovo\\.maven\\maven-3.9.12\\bin",
+    "jdkPath": "C:\\Users\\Lenovo\\.jdk\\jdk-21.0.8(1)\\bin"
+  },
+  "event": "environmentSetup",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\week1\\week2\\JunitExample",
+  "sessionId": "20260629161702",
+  "status": "succeeded"
+}}).
+2026-06-29T16:22:29.335Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-06-29T16:22:29.336Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-06-29T16:22:29.337Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-06-29T16:22:29.443Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-06-29T16:22:29.443Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "details": {
+    "buildToolPath": "C:\\Users\\Lenovo\\.maven\\maven-3.9.12\\bin",
+    "jdkPath": "C:\\Users\\Lenovo\\.jdk\\jdk-21.0.8(1)\\bin"
+  },
+  "event": "environmentSetup",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\week1\\week2\\JunitExample",
+  "sessionId": "20260629161702",
+  "status": "succeeded"
+}}).
+2026-06-29T16:22:29.444Z [INFO] [Tool.invoke] do invoke.
+2026-06-29T16:22:29.448Z [INFO] Project c:\Users\Lenovo\OneDrive\Desktop\cognizant_1 is not a maven project, try to get java version from gradle
+2026-06-29T16:22:29.455Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'environmentSetup' reported!\nSession ID: 20260629161702,\nSession Dir: c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\.github\\modernize\\java-upgrade\\20260629161702"
+}}).
+2026-06-29T16:22:29.456Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-06-29T16:22:29.534Z [INFO] Try to get java version from gradle config files: 
+2026-06-29T16:22:29.535Z [INFO] Try to get java version from gradle properties: undefined
+2026-06-29T16:22:29.536Z [INFO] Project java version: 8
+2026-06-29T16:22:29.537Z [INFO] Build tool type detected from path: mvn
+2026-06-29T16:22:29.538Z [INFO] Build tool type: mvn
+2026-06-29T16:22:29.539Z [INFO] JDK: {
+  "name": "java",
+  "path": "C:\\Users\\Lenovo\\.jdk\\jdk-21.0.8(1)\\bin",
+  "version": "8"
+}
+2026-06-29T16:22:29.539Z [INFO] Build tool: {
+  "name": "mvn",
+  "path": "C:\\Users\\Lenovo\\.maven\\maven-3.9.12\\bin",
+  "version": ""
+}
+2026-06-29T16:22:29.541Z [INFO] Project config: {
+  "buildTool": {
+    "path": "C:\\Users\\Lenovo\\.maven\\maven-3.9.12\\bin",
+    "name": "mvn",
+    "version": ""
+  },
+  "jdk": {
+    "path": "C:\\Users\\Lenovo\\.jdk\\jdk-21.0.8(1)\\bin",
+    "name": "java",
+    "version": "8"
+  },
+  "name": "cognizant_1",
+  "dir": "c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1"
+}
+2026-06-29T16:24:56.694Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-06-29T16:24:56.695Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "details": {
+    "stepNumber": 3,
+    "stepTitle": "Add Java Version Configuration"
+  },
+  "event": "upgradeStepStarted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\week1\\week2\\JunitExample",
+  "sessionId": "20260629161702",
+  "status": "succeeded"
+}}).
+2026-06-29T16:24:56.696Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-06-29T16:24:56.697Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-06-29T16:24:56.697Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-06-29T16:24:56.798Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-06-29T16:24:56.798Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "details": {
+    "stepNumber": 3,
+    "stepTitle": "Add Java Version Configuration"
+  },
+  "event": "upgradeStepStarted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\week1\\week2\\JunitExample",
+  "sessionId": "20260629161702",
+  "status": "succeeded"
+}}).
+2026-06-29T16:24:56.799Z [INFO] [Tool.invoke] do invoke.
+2026-06-29T16:24:56.801Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'upgradeStepStarted' reported!\nSession ID: 20260629161702,\nSession Dir: c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\.github\\modernize\\java-upgrade\\20260629161702"
+}}).
+2026-06-29T16:24:56.801Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-06-29T16:25:01.935Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-06-29T16:25:01.937Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "details": {
+    "commitId": "266a19adc8e1c7dde5569216b210e9a2699ea0f7",
+    "stepNumber": 3,
+    "stepTitle": "Add Java Version Configuration"
+  },
+  "event": "upgradeStepCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\week1\\week2\\JunitExample",
+  "sessionId": "20260629161702",
+  "status": "succeeded"
+}}).
+2026-06-29T16:25:01.937Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-06-29T16:25:01.938Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-06-29T16:25:01.939Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-06-29T16:25:02.102Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-06-29T16:25:02.103Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "details": {
+    "commitId": "266a19adc8e1c7dde5569216b210e9a2699ea0f7",
+    "stepNumber": 3,
+    "stepTitle": "Add Java Version Configuration"
+  },
+  "event": "upgradeStepCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\week1\\week2\\JunitExample",
+  "sessionId": "20260629161702",
+  "status": "succeeded"
+}}).
+2026-06-29T16:25:02.104Z [INFO] [Tool.invoke] do invoke.
+2026-06-29T16:25:02.106Z [INFO] Project c:\Users\Lenovo\OneDrive\Desktop\cognizant_1 is not a maven project, try to get java version from gradle
+2026-06-29T16:25:02.109Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'upgradeStepCompleted' reported!\nSession ID: 20260629161702,\nSession Dir: c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\.github\\modernize\\java-upgrade\\20260629161702"
+}}).
+2026-06-29T16:25:02.109Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-06-29T16:25:02.129Z [INFO] Try to get java version from gradle config files: 
+2026-06-29T16:25:02.130Z [INFO] Try to get java version from gradle properties: undefined
+2026-06-29T16:25:02.131Z [INFO] Project java version: 8
+2026-06-29T16:25:02.217Z [INFO] Project c:\Users\Lenovo\OneDrive\Desktop\cognizant_1 is not a maven project, try to get java version from gradle
+2026-06-29T16:25:02.259Z [INFO] Try to get java version from gradle config files: 
+2026-06-29T16:25:02.260Z [INFO] Try to get java version from gradle properties: undefined
+2026-06-29T16:25:07.115Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-06-29T16:25:07.115Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "details": {
+    "stepNumber": 4,
+    "stepTitle": "Verify Compilation with Java 21"
+  },
+  "event": "upgradeStepStarted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\week1\\week2\\JunitExample",
+  "sessionId": "20260629161702",
+  "status": "succeeded"
+}}).
+2026-06-29T16:25:07.116Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-06-29T16:25:07.117Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-06-29T16:25:07.117Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-06-29T16:25:07.242Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-06-29T16:25:07.242Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "details": {
+    "stepNumber": 4,
+    "stepTitle": "Verify Compilation with Java 21"
+  },
+  "event": "upgradeStepStarted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\week1\\week2\\JunitExample",
+  "sessionId": "20260629161702",
+  "status": "succeeded"
+}}).
+2026-06-29T16:25:07.243Z [INFO] [Tool.invoke] do invoke.
+2026-06-29T16:25:07.245Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'upgradeStepStarted' reported!\nSession ID: 20260629161702,\nSession Dir: c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\.github\\modernize\\java-upgrade\\20260629161702"
+}}).
+2026-06-29T16:25:07.246Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-06-29T16:25:11.250Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-06-29T16:25:11.251Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "buildCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\week1\\week2\\JunitExample",
+  "sessionId": "20260629161702",
+  "status": "succeeded"
+}}).
+2026-06-29T16:25:11.252Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-06-29T16:25:11.253Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-06-29T16:25:11.254Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-06-29T16:25:11.361Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-06-29T16:25:11.362Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "event": "buildCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\week1\\week2\\JunitExample",
+  "sessionId": "20260629161702",
+  "status": "succeeded"
+}}).
+2026-06-29T16:25:11.363Z [INFO] [Tool.invoke] do invoke.
+2026-06-29T16:25:11.364Z [INFO] Project c:\Users\Lenovo\OneDrive\Desktop\cognizant_1 is not a maven project, try to get java version from gradle
+2026-06-29T16:25:11.367Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'buildCompleted' reported!\nSession ID: 20260629161702,\nSession Dir: c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\.github\\modernize\\java-upgrade\\20260629161702"
+}}).
+2026-06-29T16:25:11.367Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-06-29T16:25:11.391Z [INFO] Try to get java version from gradle config files: 
+2026-06-29T16:25:11.392Z [INFO] Try to get java version from gradle properties: undefined
+2026-06-29T16:25:11.393Z [INFO] Project java version: 8
+2026-06-29T16:25:11.421Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-06-29T16:25:11.422Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "details": {
+    "commitId": "266a19adc8e1c7dde5569216b210e9a2699ea0f7",
+    "stepNumber": 4,
+    "stepTitle": "Verify Compilation with Java 21"
+  },
+  "event": "upgradeStepCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\week1\\week2\\JunitExample",
+  "sessionId": "20260629161702",
+  "status": "succeeded"
+}}).
+2026-06-29T16:25:11.423Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-06-29T16:25:11.423Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-06-29T16:25:11.424Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-06-29T16:25:11.550Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-06-29T16:25:11.551Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "details": {
+    "commitId": "266a19adc8e1c7dde5569216b210e9a2699ea0f7",
+    "stepNumber": 4,
+    "stepTitle": "Verify Compilation with Java 21"
+  },
+  "event": "upgradeStepCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\week1\\week2\\JunitExample",
+  "sessionId": "20260629161702",
+  "status": "succeeded"
+}}).
+2026-06-29T16:25:11.552Z [INFO] [Tool.invoke] do invoke.
+2026-06-29T16:25:11.553Z [INFO] Project c:\Users\Lenovo\OneDrive\Desktop\cognizant_1 is not a maven project, try to get java version from gradle
+2026-06-29T16:25:11.556Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'upgradeStepCompleted' reported!\nSession ID: 20260629161702,\nSession Dir: c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\.github\\modernize\\java-upgrade\\20260629161702"
+}}).
+2026-06-29T16:25:11.557Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-06-29T16:25:11.600Z [INFO] Try to get java version from gradle config files: 
+2026-06-29T16:25:11.601Z [INFO] Try to get java version from gradle properties: undefined
+2026-06-29T16:25:11.602Z [INFO] Project java version: 8
+2026-06-29T16:25:11.910Z [INFO] Project c:\Users\Lenovo\OneDrive\Desktop\cognizant_1 is not a maven project, try to get java version from gradle
+2026-06-29T16:25:11.931Z [INFO] Try to get java version from gradle config files: 
+2026-06-29T16:25:11.932Z [INFO] Try to get java version from gradle properties: undefined
+2026-06-29T16:28:56.017Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-06-29T16:28:56.018Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "details": {
+    "stepNumber": 5,
+    "stepTitle": "Final Validation"
+  },
+  "event": "upgradeStepStarted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\week1\\week2\\JunitExample",
+  "sessionId": "20260629161702",
+  "status": "succeeded"
+}}).
+2026-06-29T16:28:56.019Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-06-29T16:28:56.020Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-06-29T16:28:56.021Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-06-29T16:28:56.149Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-06-29T16:28:56.150Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "details": {
+    "stepNumber": 5,
+    "stepTitle": "Final Validation"
+  },
+  "event": "upgradeStepStarted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\week1\\week2\\JunitExample",
+  "sessionId": "20260629161702",
+  "status": "succeeded"
+}}).
+2026-06-29T16:28:56.151Z [INFO] [Tool.invoke] do invoke.
+2026-06-29T16:28:56.153Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'upgradeStepStarted' reported!\nSession ID: 20260629161702,\nSession Dir: c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\.github\\modernize\\java-upgrade\\20260629161702"
+}}).
+2026-06-29T16:28:56.153Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-06-29T16:28:56.193Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-06-29T16:28:56.195Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "testCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\week1\\week2\\JunitExample",
+  "sessionId": "20260629161702",
+  "status": "succeeded"
+}}).
+2026-06-29T16:28:56.196Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-06-29T16:28:56.197Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-06-29T16:28:56.198Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-06-29T16:28:56.366Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-06-29T16:28:56.369Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "event": "testCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\week1\\week2\\JunitExample",
+  "sessionId": "20260629161702",
+  "status": "succeeded"
+}}).
+2026-06-29T16:28:56.371Z [INFO] [Tool.invoke] do invoke.
+2026-06-29T16:28:56.374Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'testCompleted' reported!\nSession ID: 20260629161702,\nSession Dir: c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\.github\\modernize\\java-upgrade\\20260629161702"
+}}).
+2026-06-29T16:28:56.375Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-06-29T16:29:02.686Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-06-29T16:29:02.687Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "details": {
+    "commitId": "9b521407abbd36b8402a6c8240c610743a2a1c88",
+    "stepNumber": 5,
+    "stepTitle": "Final Validation"
+  },
+  "event": "upgradeValidationCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\week1\\week2\\JunitExample",
+  "sessionId": "20260629161702",
+  "status": "succeeded"
+}}).
+2026-06-29T16:29:02.687Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-06-29T16:29:02.688Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-06-29T16:29:02.688Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-06-29T16:29:02.813Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-06-29T16:29:02.814Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "details": {
+    "commitId": "9b521407abbd36b8402a6c8240c610743a2a1c88",
+    "stepNumber": 5,
+    "stepTitle": "Final Validation"
+  },
+  "event": "upgradeValidationCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\week1\\week2\\JunitExample",
+  "sessionId": "20260629161702",
+  "status": "succeeded"
+}}).
+2026-06-29T16:29:02.815Z [INFO] [Tool.invoke] do invoke.
+2026-06-29T16:29:02.816Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'upgradeValidationCompleted' reported!\nSession ID: 20260629161702,\nSession Dir: c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\.github\\modernize\\java-upgrade\\20260629161702"
+}}).
+2026-06-29T16:29:02.817Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-06-29T16:29:02.859Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-06-29T16:29:02.860Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "planExecutionCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\week1\\week2\\JunitExample",
+  "sessionId": "20260629161702",
+  "status": "succeeded"
+}}).
+2026-06-29T16:29:02.861Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-06-29T16:29:02.862Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-06-29T16:29:02.862Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-06-29T16:29:03.022Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-06-29T16:29:03.023Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "event": "planExecutionCompleted",
+  "phase": "execute",
+  "projectPath": "c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\week1\\week2\\JunitExample",
+  "sessionId": "20260629161702",
+  "status": "succeeded"
+}}).
+2026-06-29T16:29:03.024Z [INFO] [Tool.invoke] do invoke.
+2026-06-29T16:29:03.045Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'planExecutionCompleted' reported!\nSession ID: 20260629161702,\nSession Dir: c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\.github\\modernize\\java-upgrade\\20260629161702"
+}}).
+2026-06-29T16:29:03.045Z [INFO] ----------------------invoked appmod-report-event----------------------
+2026-06-29T16:29:49.082Z [INFO] ---------------------prepare appmod-validate-cves-for-java----------------------
+2026-06-29T16:29:49.083Z [INFO] [Tool.prepareInvocation]({name: appmod-validate-cves-for-java, input: {
+  "dependencies": [
+    "junit:junit:4.13.2"
+  ],
+  "projectPath": "c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\week1\\week2\\JunitExample",
+  "sessionId": "20260629161702"
+}}).
+2026-06-29T16:29:49.084Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-06-29T16:29:49.086Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Validate CVEs"
+}}).
+2026-06-29T16:29:49.086Z [INFO] ----------------------prepared appmod-validate-cves-for-java----------------------
+2026-06-29T16:29:49.282Z [INFO] ----------------------invoke appmod-validate-cves-for-java----------------------
+2026-06-29T16:29:49.283Z [INFO] [Tool.invoke]({name: appmod-validate-cves-for-java, modelId: auto, input: {
+  "dependencies": [
+    "junit:junit:4.13.2"
+  ],
+  "projectPath": "c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\week1\\week2\\JunitExample",
+  "sessionId": "20260629161702"
+}}).
+2026-06-29T16:29:49.284Z [INFO] [Tool.invoke] do invoke.
+2026-06-29T16:29:49.287Z [INFO] Project c:\Users\Lenovo\OneDrive\Desktop\cognizant_1\week1\week2\JunitExample is a maven project, try to get java version from pom.xml
+2026-06-29T16:29:49.288Z [INFO] Getting CVEs for dependencies: junit:junit:4.13.2
+2026-06-29T16:29:49.289Z [INFO] getting CVEs for dependencies:
+ - junit:junit:4.13.2...
+2026-06-29T16:29:49.290Z [INFO] getting gitHub access token...
+2026-06-29T16:29:49.323Z [INFO] Project java version: 21
+2026-06-29T16:29:49.324Z [INFO] Maven project detected.
+2026-06-29T16:29:49.325Z [INFO] Build tool type: mvn
+2026-06-29T16:29:49.331Z [INFO] Processing batch 1/1, size: 1
+2026-06-29T16:29:49.333Z [INFO] Proxy configuration: HTTPS_PROXY=(not set), HTTP_PROXY=(not set), NO_PROXY=(not set), NODE_EXTRA_CA_CERTS=(not set), vscode http.proxy=(not set), hasProxy=false
+2026-06-29T16:29:49.334Z [INFO] No proxy detected, using direct connection.
+2026-06-29T16:29:49.338Z [INFO] listing CVEs from GitHub for dependencies [
+  "junit:junit:4.13.2"
+]
+2026-06-29T16:29:49.338Z [INFO] GitHub Advisory API affects parameter: ["junit:junit@4.13.2"]
+2026-06-29T16:29:49.396Z [INFO] JDK: {
+  "name": "java",
+  "path": "C:\\Users\\Lenovo\\.jdk\\jdk-21.0.8(1)\\bin",
+  "version": "21"
+}
+2026-06-29T16:29:49.426Z [INFO] Build tool: {
+  "name": "mvn",
+  "path": "C:\\Users\\Lenovo\\.maven\\maven-3.9.12\\bin",
+  "version": "",
+  "source": "install"
+}
+2026-06-29T16:29:49.426Z [INFO] Project config: {
+  "buildTool": {
+    "path": "C:\\Users\\Lenovo\\.maven\\maven-3.9.12\\bin",
+    "name": "mvn",
+    "version": "",
+    "source": "install"
+  },
+  "jdk": {
+    "path": "C:\\Users\\Lenovo\\.jdk\\jdk-21.0.8(1)\\bin",
+    "name": "java",
+    "version": "21"
+  },
+  "name": "JunitExample",
+  "dir": "c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\week1\\week2\\JunitExample"
+}
+2026-06-29T16:29:49.428Z [INFO] [MavenBuildTool] Getting all module coordinates of c:\Users\Lenovo\OneDrive\Desktop\cognizant_1\week1\week2\JunitExample
+2026-06-29T16:29:49.429Z [INFO] [MavenBuildTool] Getting effective POMs of c:\Users\Lenovo\OneDrive\Desktop\cognizant_1\week1\week2\JunitExample
+2026-06-29T16:29:49.430Z [INFO] [MavenBuildTool] Getting Java version of c:\Users\Lenovo\OneDrive\Desktop\cognizant_1\week1\week2\JunitExample from pom.xml
+2026-06-29T16:29:49.431Z [INFO] [MavenBuildTool] Searching for pom.xml files in c:\Users\Lenovo\OneDrive\Desktop\cognizant_1\week1\week2\JunitExample
+2026-06-29T16:29:49.431Z [INFO] [MavenBuildTool] Getting all module coordinates of c:\Users\Lenovo\OneDrive\Desktop\cognizant_1\week1\week2\JunitExample
+2026-06-29T16:29:49.432Z [INFO] [MavenBuildTool] Getting effective POMs of c:\Users\Lenovo\OneDrive\Desktop\cognizant_1\week1\week2\JunitExample
+2026-06-29T16:29:49.435Z [INFO] [Environment] Running command (Java undefined): mvn dependency:tree -B
+2026-06-29T16:29:49.447Z [INFO] [Environment] Running command (Java undefined): mvn help:effective-pom -Doutput=effective-pom-b8b36023-61e1-4f9b-a00c-becbc1871427.log
+2026-06-29T16:29:49.473Z [INFO] [Environment] Running command (Java undefined): mvn help:effective-pom -Doutput=effective-pom-29ddb2d7-0182-454c-9466-b70f8fe447d1.log
+2026-06-29T16:29:49.939Z [INFO] Fetched 0 total advisories across all pages
+2026-06-29T16:29:49.940Z [INFO] Advisory IDs returned: 
+2026-06-29T16:29:49.941Z [INFO] grouping CVEs and finding max patched version by dep...
+2026-06-29T16:29:49.942Z [INFO] done getting 0 CVEs for 1 dependencies
+2026-06-29T16:29:49.944Z [INFO] calculating patched version by dep...
+2026-06-29T16:29:49.945Z [INFO] finished getting CVEs for dependencies.
+2026-06-29T16:29:49.945Z [INFO] Found 0 dependencies with known CVEs
+2026-06-29T16:29:49.951Z [INFO] No known CVEs that need to be fixed are found for dependencies: junit:junit:4.13.2
+2026-06-29T16:29:49.952Z [INFO] [Tool.invoke]({result: {
+  "message": "No known CVEs that need to be fixed are found for the given dependencies."
+}}).
+2026-06-29T16:29:49.953Z [INFO] ----------------------invoked appmod-validate-cves-for-java----------------------
+[INFO] Scanning for projects...
+[INFO] Scanning for projects...
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.example:JUnitExample >----------------------
+[INFO] Building JUnitExample 1.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] ----------------------< com.example:JUnitExample >----------------------
+[INFO] Building JUnitExample 1.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- help:3.5.1:effective-pom (default-cli) @ JUnitExample ---
+[INFO] 
+[INFO] --- help:3.5.1:effective-pom (default-cli) @ JUnitExample ---
+[INFO] 
+[INFO] ----------------------< com.example:JUnitExample >----------------------
+[INFO] Building JUnitExample 1.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- dependency:3.7.0:tree (default-cli) @ JUnitExample ---
+[INFO] Effective-POM written to: c:\Users\Lenovo\OneDrive\Desktop\cognizant_1\week1\week2\JunitExample\effective-pom-29ddb2d7-0182-454c-9466-b70f8fe447d1.log
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.500 s
+[INFO] Finished at: 2026-06-29T21:59:55+05:30
+[INFO] ------------------------------------------------------------------------
+[INFO] Effective-POM written to: c:\Users\Lenovo\OneDrive\Desktop\cognizant_1\week1\week2\JunitExample\effective-pom-b8b36023-61e1-4f9b-a00c-becbc1871427.log
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.538 s
+[INFO] Finished at: 2026-06-29T21:59:55+05:30
+[INFO] ------------------------------------------------------------------------
+2026-06-29T16:29:55.758Z [INFO] [MavenBuildTool] Found pom.xml files: c:\Users\Lenovo\OneDrive\Desktop\cognizant_1\week1\week2\JunitExample\pom.xml
+2026-06-29T16:29:55.760Z [INFO] [MavenBuildTool] Java version found in c:\Users\Lenovo\OneDrive\Desktop\cognizant_1\week1\week2\JunitExample\pom.xml: 21
+[INFO] com.example:JUnitExample:jar:1.0
+[INFO] \- junit:junit:jar:4.13.2:test
+[INFO]    \- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.607 s
+[INFO] Finished at: 2026-06-29T21:59:58+05:30
+[INFO] ------------------------------------------------------------------------
+2026-06-29T16:29:58.871Z [INFO] [MavenBuildTool] Successfully got dependency tree of c:\Users\Lenovo\OneDrive\Desktop\cognizant_1\week1\week2\JunitExample
+2026-06-29T16:29:58.874Z [INFO] [MavenBuildTool] Getting Java version of c:\Users\Lenovo\OneDrive\Desktop\cognizant_1\week1\week2\JunitExample from pom.xml
+2026-06-29T16:29:58.876Z [INFO] [MavenBuildTool] Searching for pom.xml files in c:\Users\Lenovo\OneDrive\Desktop\cognizant_1\week1\week2\JunitExample
+2026-06-29T16:29:58.877Z [INFO] [MavenBuildTool] Found pom.xml files: c:\Users\Lenovo\OneDrive\Desktop\cognizant_1\week1\week2\JunitExample\pom.xml
+2026-06-29T16:29:58.892Z [INFO] [MavenBuildTool] Java version found in c:\Users\Lenovo\OneDrive\Desktop\cognizant_1\week1\week2\JunitExample\pom.xml: 21
+2026-06-29T16:30:09.196Z [INFO] ---------------------prepare appmod-report-event----------------------
+2026-06-29T16:30:09.196Z [INFO] [Tool.prepareInvocation]({name: appmod-report-event, input: {
+  "event": "summaryGenerated",
+  "message": "Java 21 LTS upgrade completed successfully with all tests passing and no CVEs identified. Project is production-ready.",
+  "phase": "summarize",
+  "projectPath": "c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\week1\\week2\\JunitExample",
+  "sessionId": "20260629161702",
+  "status": "succeeded"
+}}).
+2026-06-29T16:30:09.197Z [INFO] [Tool.prepareInvocation] do prepare invocation.
+2026-06-29T16:30:09.198Z [INFO] [Tool.prepareInvocation]({result: {
+  "invocationMessage": "Report upgrade event"
+}}).
+2026-06-29T16:30:09.199Z [INFO] ----------------------prepared appmod-report-event----------------------
+2026-06-29T16:30:09.321Z [INFO] ----------------------invoke appmod-report-event----------------------
+2026-06-29T16:30:09.321Z [INFO] [Tool.invoke]({name: appmod-report-event, modelId: auto, input: {
+  "event": "summaryGenerated",
+  "message": "Java 21 LTS upgrade completed successfully with all tests passing and no CVEs identified. Project is production-ready.",
+  "phase": "summarize",
+  "projectPath": "c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\week1\\week2\\JunitExample",
+  "sessionId": "20260629161702",
+  "status": "succeeded"
+}}).
+2026-06-29T16:30:09.322Z [INFO] [Tool.invoke] do invoke.
+2026-06-29T16:30:09.325Z [INFO] [Tool.invoke]({result: {
+  "message": "Event 'summaryGenerated' reported!\nSession ID: 20260629161702,\nSession Dir: c:\\Users\\Lenovo\\OneDrive\\Desktop\\cognizant_1\\.github\\modernize\\java-upgrade\\20260629161702"
+}}).
+2026-06-29T16:30:09.326Z [INFO] ----------------------invoked appmod-report-event----------------------
