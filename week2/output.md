@@ -8,3 +8,5 @@
 <img width="1796" height="1017" alt="Screenshot 2026-07-02 092440" src="https://github.com/user-attachments/assets/cf872984-e5d6-412c-a438-0d48cb4cab6f" />
 # 5. VerifyingInteraction output
 <img width="1917" height="1015" alt="Screenshot 2026-07-03 223620" src="https://github.com/user-attachments/assets/34b7d47b-3200-4f75-9c3d-f9e5b1043565" />
+# 6. LoggingExampleSLF4J
+<img width="1917" height="1007" alt="Screenshot 2026-07-05 181106" src="https://github.com/user-attachments/assets/9c086942-5a82-4ee7-b5b4-0eddb08248f6" />
