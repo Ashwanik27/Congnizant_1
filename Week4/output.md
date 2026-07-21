@@ -14,4 +14,7 @@
 <img width="1917" height="1015" alt="Screenshot 2026-07-20 112033" src="https://github.com/user-attachments/assets/05acddd4-0b6c-46b1-98a1-61717d0a7afc" />
 <img width="1911" height="1010" alt="Screenshot 2026-07-20 112058" src="https://github.com/user-attachments/assets/fceb4b38-6c87-40aa-a906-a8122eb7084f" />
 <img width="1917" height="1010" alt="Screenshot 2026-07-20 112118" src="https://github.com/user-attachments/assets/9ec5f741-7a8d-43fa-954f-1a901f620b19" />
+# 6. AuthenticationService
+<img width="1913" height="1015" alt="Screenshot 2026-07-21 084452" src="https://github.com/user-attachments/assets/d861253d-ae4d-475f-8699-4c2fd00de038" />
+<img width="1895" height="1016" alt="Screenshot 2026-07-21 084609" src="https://github.com/user-attachments/assets/0262a5af-bfad-4784-9670-7ffe9d49d440" />
 
