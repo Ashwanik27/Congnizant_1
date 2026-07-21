@@ -21,3 +21,4 @@ public class LoanController {
     }
 
 }
+// loan number, loan type, loan amount, emi, tenure
